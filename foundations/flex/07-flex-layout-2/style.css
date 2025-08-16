@@ -52,12 +52,6 @@ body {
   padding: 16px;
 }
 
-a {
-  font-size: 24px;
-  color: white;
-  text-decoration: none;
-}
-
 ul {
   padding: 0px;
   margin: 0px;
@@ -67,15 +61,22 @@ li {
   list-style: none;
 }
 
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .cards {
   padding: 48px;
   display: flex; 
   flex-wrap: wrap;
-  gap: 36px;
+  gap: 32px;
 }
 
 .card {
-  flex: 0 0 300px;
+  padding: 16px;
+  width: 300px;
 }
 
 .footer {
